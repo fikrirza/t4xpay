@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Sign In | Pelayanan Pajak</title>
+
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <link href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+	<link href="{{ asset('plugins/node-waves/waves.css') }}" rel="stylesheet" />
+	<link href="{{ asset('plugins/animate-css/animate.css') }}" rel="stylesheet" />
+	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body class="login-page">
+    <div class="login-box">
+        <div class="logo">
+            <a href="javascript:void(0);">Pelayanan <b>PAJAK</b></a>
+            <small>Online</small>
+        </div>
+        <div class="card">
+			<div class="header">
+				<h3>Terima Kasih</h3>
+			</div>
+            <div class="body">
+                <p>Terima kasih sudah melakukan registrasi On-Line Pajak, informasi registrasi telah dikirim ke email: email@email.com.</p>
+				<p>Silahkan periksa pesan masuk email anda dan klik link pada tautan tersebut untuk aktifasi user anda.</p>
+				<div class="row m-t-15 m-b--20">
+					<div class="col-xs-12">
+						<a class="btn btn-primary" href="{{ route('login') }}">Kembali</a>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    
+	<script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+	<script src="{{ asset('plugins/bootstrap/js/bootstrap.js') }}"></script>
+	<script src="{{ asset('plugins/node-waves/waves.js') }}"></script>
+	<script src="{{ asset('plugins/jquery-validation/jquery.validate.js') }}"></script>
+	<script src="{{ asset('js/admin.js') }}"></script>
+    <script src="{{ asset('js/pages/examples/sign-in.js') }}"></script>
+
+</body>
+
+</html>
