@@ -10,9 +10,11 @@
 
 
 @section('content')
-<div class="block-header">
-	<h2>FORM PENDAFTARAN RESTORAN</h2>
-</div>
+<ol class="breadcrumb">
+	<li><a href="{{ route('beranda') }}">Beranda</a></li>
+	<li><a href="{{ route('pendaftaran-restoran') }}">Pendaftaran Restoran</a></li>
+	<li class="active">Form Pendaftaran Restoran</li>
+</ol>
 
 
 <div class="row clearfix">
@@ -204,6 +206,18 @@
 					
 					
 					<h2 class="card-inside-title">III. Data Usaha</h2>
+					<div class="row clearfix">
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
+							<label for="">Nama Restoran</label>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+							<div class="form-group">
+								<div class="form-line">
+									<input type="text" id="nama_restoran" class="form-control" placeholder="Nama Restoran">
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="row clearfix">
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
 							<label for="">Status Usaha</label>

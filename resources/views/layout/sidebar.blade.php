@@ -47,7 +47,7 @@
 						</li>
 					</ul>
 				</li>
-				<li>
+				<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}">
 					<a href="javascript:void(0);" class="menu-toggle">
 						<i class="material-icons">description</i>
 						<span>Pelaporan</span>
@@ -56,8 +56,8 @@
 						<li>
 							<a href="">PBB</a>
 						</li>
-						<li>
-							<a href="">Restoran</a>
+						<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}">
+							<a href="{{ route('pelaporan-restoran') }}">Restoran</a>
 						</li>
 						<li>
 							<a href="">Hotel</a>

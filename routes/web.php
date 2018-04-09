@@ -31,3 +31,8 @@ Route::get('/pendaftaran-hotel', function() { return view('pendaftaran.hotel'); 
 /* PENDAFTARAN RESTORAN */
 Route::get('/pendaftaran-restoran', function() { return view('pendaftaran.restoran'); })->name('pendaftaran-restoran');
 Route::get('/pendaftaran-restoran-tambah', function() { return view('pendaftaran.restoran-tambah'); })->name('pendaftaran-restoran-tambah');
+
+
+/* PELAPORAN RESTORAN */
+Route::get('/pelaporan-restoran', function() { return view('pelaporan.restoran'); })->name('pelaporan-restoran');
+Route::get('/pelaporan-restoran-detil', function() { return view('pelaporan.restoran-detil'); })->name('pelaporan-restoran-detil');

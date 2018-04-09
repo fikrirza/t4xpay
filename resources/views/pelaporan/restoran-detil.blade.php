@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title')
-<title>Pendaftaran Restoran</title>
+<title>Pelaporan Restoran</title>
 @endsection
 
 @section('headscript')
@@ -11,8 +11,9 @@
 
 @section('content')
 <ol class="breadcrumb">
-	<li><a href="javascript:void(0);">Beranda</a></li>
-	<li class="active">Pendaftaran Restoran</li>
+	<li><a href="{{ route('beranda') }}">Beranda</a></li>
+	<li><a href="{{ route('pelaporan-restoran') }}">Pelaporan Restoran</a></li>
+	<li class="active">Detil Pelaporan Restoran</li>
 </ol>
 
 
@@ -21,10 +22,10 @@
 		<div class="card">
 			<div class="header">
 				<h2>
-					DAFTAR RESTORAN
+					PELAPORAN | PAJAK RESTORAN | 31709xxxxxxxxx63476
 				</h2>
-				<div class="header-dropdown">
-					<a href="{{ route('pendaftaran-restoran-tambah') }}" class="btn btn-primary waves-effect">Tambah Objek Restoran</a>
+                <div class="header-dropdown">
+					<a href="{{ route('pendaftaran-restoran-tambah') }}" class="btn btn-primary waves-effect">Tambah Pelaporan Pajak Restoran</a>
 				</div>
 			</div>
 			<div class="body">
@@ -34,38 +35,24 @@
 							<tr>
 								<th>No</th>
 								<th>Nomor Objek Pajak</th>
-								<th>Nama Objek Pajak/ Nama Restoran</th>
-								<th>Alamat</th>
-								<th>Status</th>
+								<th>Masa Pajak</th>
+								<th>Tahun Pajak</th>
 								<th>Aksi</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>1</td>
-								<td>31709xxxxxxxxx09289</td>
-								<td>Restoran 1</td>
-								<td>Jl. Denpasar Kav 51 Karet</td>
-								<td>Dalam Proses Verifikasi</td>
-								<td>
-									<a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a>
-									<a href="" class="btn btn-warning btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Ubah"><i class="material-icons">edit</i></a>
-								</td>
-							</tr>
-							<tr>
-								<td>2</td>
 								<td>31709xxxxxxxxx63476</td>
-								<td>Restoran 2</td>
-								<td>Jl. Surabaya No. 33 Menteng</td>
-								<td>Terverifikasi</td>
+								<td>Januari</td>
+								<td>2018</td>
 								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
 							</tr>
 							<tr>
-								<td>3</td>
+								<td>2</td>
 								<td>31709xxxxxxxxx78374</td>
-								<td>Restoran 3</td>
-								<td>Jl. Panjang Sekali Cipulir</td>
-								<td>Terverifikasi</td>
+								<td>Februari</td>
+								<td>2018</td>
 								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
 							</tr>
 						</tbody>
