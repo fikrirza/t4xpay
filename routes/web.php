@@ -36,3 +36,15 @@ Route::get('/pendaftaran-restoran-tambah', function() { return view('pendaftaran
 /* PELAPORAN RESTORAN */
 Route::get('/pelaporan-restoran', function() { return view('pelaporan.restoran'); })->name('pelaporan-restoran');
 Route::get('/pelaporan-restoran-detil', function() { return view('pelaporan.restoran-detil'); })->name('pelaporan-restoran-detil');
+Route::get('/pelaporan-restoran-tambah', function() { return view('pelaporan.restoran-tambah'); })->name('pelaporan-restoran-tambah');
+
+
+/* PEMBAYARAN RESTORAN */
+Route::get('/pembayaran-restoran', function() { return view('pembayaran.restoran'); })->name('pembayaran-restoran');
+Route::get('/pembayaran-restoran-detil', function() { return view('pembayaran.restoran-detil'); })->name('pembayaran-restoran-detil');
+Route::get('/pembayaran-restoran-tambah', function() { return view('pembayaran.restoran-tambah'); })->name('pembayaran-restoran-tambah');
+
+
+/* PEMBAYARAN RESTORAN */
+Route::get('/transaksi-pembayaran', function() { return view('transaksi.index'); })->name('transaksi-pembayaran');
+Route::get('/bukti-pembayaran', function() { return view('transaksi.bukti'); })->name('bukti-pembayaran');

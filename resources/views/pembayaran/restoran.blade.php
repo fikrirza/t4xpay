@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title')
-<title>Pelaporan Restoran</title>
+<title>Pembayaran Pajak Restoran</title>
 @endsection
 
 @section('headscript')
@@ -12,7 +12,7 @@
 @section('content')
 <ol class="breadcrumb">
 	<li><a href="{{ route('beranda') }}">Beranda</a></li>
-	<li class="active">Pelaporan Restoran</li>
+	<li class="active">Pembayaran Pajak Restoran</li>
 </ol>
 
 
@@ -20,9 +20,7 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
-				<h2>
-					PELAPORAN PAJAK RESTORAN
-				</h2>
+				<h2>PEMBAYARAN PAJAK RESTORAN</h2>
 			</div>
 			<div class="body">
 				<div class="table-responsive">
@@ -30,7 +28,6 @@
 						<thead>
 							<tr>
 								<th>No</th>
-                                <th>NPWPD</th>
 								<th>Nomor Objek Pajak</th>
 								<th>Nama Objek Pajak/ Nama Restoran</th>
 								<th>Alamat</th>
@@ -41,14 +38,12 @@
 							<tr>
 								<td>1</td>
 								<td>31709xxxxxxxxx63476</td>
-								<td>31709xxxxxxxxx63476</td>
 								<td>Restoran 2</td>
 								<td>Jl. Surabaya No. 33 Menteng</td>
-								<td><h4><a href="{{ route('pelaporan-restoran-detil') }}" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
+								<td><h4><a href="{{ route('pembayaran-restoran-detil') }}" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 							<tr>
 								<td>2</td>
-								<td>31709xxxxxxxxx78374</td>
 								<td>31709xxxxxxxxx78374</td>
 								<td>Restoran 3</td>
 								<td>Jl. Panjang Sekali Cipulir</td>

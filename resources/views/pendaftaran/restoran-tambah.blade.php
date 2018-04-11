@@ -21,12 +21,10 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
-				<h2>
-					FORM PENDAFTARAN OBJEK PAJAK DAERAH - PAJAK RESTORAN
-				</h2>
+				<h2>FORM PENDAFTARAN OBJEK PAJAK DAERAH - PAJAK RESTORAN</h2>
 			</div>
 			<div class="body">
-				<form class="form-horizontal">
+				<form class="form-horizontal" method="POST">
 					<h2 class="card-inside-title">I. Data Objek Pajak</h2>
 					<div class="row clearfix">
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
@@ -256,7 +254,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
 							<label for="">Luas Tanah</label>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
@@ -269,7 +267,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
 							<label for="">Luas Bangunan</label>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
@@ -284,7 +282,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
 							<label for="">Luas Tempat Usaha</label>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">

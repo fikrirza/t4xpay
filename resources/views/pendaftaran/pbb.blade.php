@@ -45,8 +45,8 @@
 								<td>Jl. Denpasar Kav 51 Karet</td>
 								<td>Dalam Proses Verifikasi</td>
 								<td>
-									<a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a>
-									<a href="" class="btn btn-warning btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Ubah"><i class="material-icons">edit</i></a>
+									<h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4>
+									<h4><a href="" class="label label-warning waves-float" data-toggle="tooltip" data-placement="top" title="Ubah">Ubah</a></h4>
 								</td>
 							</tr>
 							<tr>
@@ -54,14 +54,14 @@
 								<td>31709xxxxxxxxx63476</td>
 								<td>Jl. Surabaya No. 33 Menteng</td>
 								<td>Terverifikasi</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 							<tr>
 								<td>3</td>
 								<td>31709xxxxxxxxx78374</td>
 								<td>Jl. Panjang Sekali Cipulir</td>
 								<td>Terverifikasi</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 						</tbody>
 					</table>
@@ -76,14 +76,16 @@
 @section('bottomscript')
 <script src="{{ asset('plugins/jquery-datatable/jquery.dataTables.js') }}"></script>
 <script src="{{ asset('plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js') }}"></script>
-
 <script>
-$('.basic-example').DataTable({
-	responsive: true
-});
+$(function () {
+    $('.basic-example').DataTable({
+        responsive: true
+    });
 
-$('[data-toggle="tooltip"]').tooltip({
-	container: 'body'
+	$('[data-toggle="tooltip"]').tooltip({
+		container: 'body'
+	});
+    
 });
 </script>
 @endsection

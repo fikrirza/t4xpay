@@ -23,7 +23,7 @@
 		<!-- Menu -->
 		<div class="menu">
 			<ul class="list">
-				<li class="header">MAIN NAVIGATION</li>
+				<li class="header">MENU UTAMA</li>
 				<li class="{{ Route::is('beranda') ? 'active' : '' }}">
 					<a href="{{ route('beranda') }}">
 						<i class="material-icons">home</i>
@@ -36,11 +36,11 @@
 						<span>Pendaftaran</span>
 					</a>
 					<ul class="ml-menu">
-						<li class="{{ Route::is('pendaftaran-pbb*') ? 'active' : '' }}">
-							<a href="{{ route('pendaftaran-pbb') }}">PBB</a>
-						</li>
 						<li class="{{ Route::is('pendaftaran-restoran*') ? 'active' : '' }}">
 							<a href="{{ route('pendaftaran-restoran') }}">Restoran</a>
+						</li>
+						<li class="{{ Route::is('pendaftaran-pbb*') ? 'active' : '' }}">
+							<a href="{{ route('pendaftaran-pbb') }}">PBB</a>
 						</li>
 						<li class="{{ Route::is('pendaftaran-hotel') ? 'active' : '' }}">
 							<a href="{{ route('pendaftaran-hotel') }}">Hotel</a>
@@ -53,22 +53,33 @@
 						<span>Pelaporan</span>
 					</a>
 					<ul class="ml-menu">
-						<li>
-							<a href="">PBB</a>
-						</li>
 						<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}">
 							<a href="{{ route('pelaporan-restoran') }}">Restoran</a>
+						</li>
+						<li>
+							<a href="">PBB</a>
 						</li>
 						<li>
 							<a href="">Hotel</a>
 						</li>
 					</ul>
 				</li>
-				<li class="">
-					<a href="#">
+				<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}{{ Route::is('transaksi-pembayaran') ? 'active' : '' }}{{ Route::is('bukti-pembayaran') ? 'active' : '' }}">
+					<a href="javascript:void(0);" class="menu-toggle">
 						<i class="material-icons">receipt</i>
 						<span>Pembayaran</span>
 					</a>
+					<ul class="ml-menu">
+						<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}">
+							<a href="{{ route('pembayaran-restoran') }}">Restoran</a>
+						</li>
+						<li>
+							<a href="">PBB</a>
+						</li>
+						<li>
+							<a href="">Hotel</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>

@@ -20,48 +20,49 @@
 
 <body class="login-page">
     <div class="login-box">
-        <div class="logo">
-            <a href="javascript:void(0);">Pelayanan <b>PAJAK</b></a>
-            <small>Online</small>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="logo">    
+                <img src="{{ asset('images/logo-cartenz.jpeg') }}" alt="cartenz">
+                <img src="{{ asset('images/kemenkeu.png') }}" alt="kemenkeu">
+                <a href="javascript:void(0);">Rasakan pengalaman pengelolaan pajak yang terintegrasi, lebih cepat, lebih mudah dan aman</a>
+            </div>
         </div>
-        <div class="card">
-            <div class="body">
-                <form id="sign_in" method="POST">
-                    <div class="msg">Sign in to start your session</div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">person</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="email" class="form-control" name="email" placeholder="Email" required autofocus>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="body">
+                    <form id="sign_in" method="POST">
+                        <div class="msg">Silahkan Login</div>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="material-icons">person</i>
+                            </span>
+                            <div class="form-line">
+                                <input type="email" class="form-control" name="email" placeholder="Email" required autofocus>
+                            </div>
                         </div>
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">lock</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="password" class="form-control" name="password" placeholder="Password" required>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="material-icons">lock</i>
+                            </span>
+                            <div class="form-line">
+                                <input type="password" class="form-control" name="password" placeholder="Password" required>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-8 p-t-5">
-                            <input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
-                            <label for="rememberme">Remember Me</label>
+                        <div class="row">
+                            <div class="col-xs-8 p-t-5">
+                                <a href="{{ route('forgetpass') }}">Lupa Password?</a>
+                            </div>
+                            <div class="col-xs-4">
+                                <button class="btn btn-block bg-pink waves-effect" type="submit">SIGN IN</button>
+                            </div>
                         </div>
-                        <div class="col-xs-4">
-                            <button class="btn btn-block bg-pink waves-effect" type="submit">SIGN IN</button>
+                        <div class="row m-t-15 m-b--20">
+                            <div class="col-xs-12">
+                                Belum memiliki akun? <a href="{{ route('registrasi') }}">Registrasi disini</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row m-t-15 m-b--20">
-                        <div class="col-xs-6">
-                            <a href="{{ route('registrasi') }}">Registrasi!</a>
-                        </div>
-                        <div class="col-xs-6 align-right">
-                            <a href="{{ route('forgetpass') }}">Lupa Password?</a>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

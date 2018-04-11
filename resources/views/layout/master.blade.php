@@ -12,22 +12,26 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
-
     <link href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+
     <link href="{{ asset('plugins/node-waves/waves.css') }}" rel="stylesheet" />
-	<link href="{{ asset('plugins/animate-css/animate.css') }}" rel="stylesheet" />
+
+    <link href="{{ asset('plugins/animate-css/animate.css') }}" rel="stylesheet" />
+
 	@yield('headscript')
-	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
     <link href="{{ asset('css/themes/all-themes.css') }}" rel="stylesheet" />
 	
 </head>
 
-<body class="theme-red">
+<body class="theme-indigo">
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
             <div class="preloader">
-                <div class="spinner-layer pl-red">
+                <div class="spinner-layer pl-indigo">
                     <div class="circle-clipper left">
                         <div class="circle"></div>
                     </div>

@@ -21,11 +21,9 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
-				<h2>
-					PELAPORAN | PAJAK RESTORAN | 31709xxxxxxxxx63476
-				</h2>
-                <div class="header-dropdown">
-					<a href="{{ route('pendaftaran-restoran-tambah') }}" class="btn btn-primary waves-effect">Tambah Pelaporan Pajak Restoran</a>
+				<h2>PELAPORAN | PAJAK RESTORAN | 31709xxxxxxxxx63476</h2>
+                <div class="align-right">
+					<a href="{{ route('pelaporan-restoran-tambah') }}" class="btn btn-primary waves-effect">Tambah Pelaporan Pajak Restoran</a>
 				</div>
 			</div>
 			<div class="body">
@@ -46,14 +44,14 @@
 								<td>31709xxxxxxxxx63476</td>
 								<td>Januari</td>
 								<td>2018</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 							<tr>
 								<td>2</td>
 								<td>31709xxxxxxxxx78374</td>
 								<td>Februari</td>
 								<td>2018</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 						</tbody>
 					</table>
@@ -69,12 +67,15 @@
 <script src="{{ asset('plugins/jquery-datatable/jquery.dataTables.js') }}"></script>
 <script src="{{ asset('plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js') }}"></script>
 <script>
-$('.basic-example').DataTable({
-	responsive: true
-});
+$(function () {
+    $('.basic-example').DataTable({
+        responsive: true
+    });
 
-$('[data-toggle="tooltip"]').tooltip({
-	container: 'body'
+	$('[data-toggle="tooltip"]').tooltip({
+		container: 'body'
+	});
+    
 });
 </script>
 @endsection

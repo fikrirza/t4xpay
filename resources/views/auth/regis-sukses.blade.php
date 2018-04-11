@@ -20,22 +20,27 @@
 
 <body class="login-page">
     <div class="login-box">
-        <div class="logo">
-            <a href="javascript:void(0);">Pelayanan <b>PAJAK</b></a>
-            <small>Online</small>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="logo">
+                <img src="{{ asset('images/logo-cartenz.jpeg') }}" alt="cartenz">
+                <img src="{{ asset('images/kemenkeu.png') }}" alt="kemenkeu">
+                <a href="javascript:void(0);">Rasakan pengalaman pengelolaan pajak yang terintegrasi, lebih cepat, lebih mudah dan aman</a>
+            </div>
         </div>
-        <div class="card">
-			<div class="header">
-				<h3>Terima Kasih</h3>
-			</div>
-            <div class="body">
-                <p>Terima kasih sudah melakukan registrasi On-Line Pajak, informasi registrasi telah dikirim ke email: email@email.com.</p>
-				<p>Silahkan periksa pesan masuk email anda dan klik link pada tautan tersebut untuk aktifasi user anda.</p>
-				<div class="row m-t-15 m-b--20">
-					<div class="col-xs-12">
-						<a class="btn btn-primary" href="{{ route('login') }}">Kembali</a>
-					</div>
-				</div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h3>Terima Kasih</h3>
+                </div>
+                <div class="body">
+                    <p>Terima kasih sudah melakukan registrasi On-Line Pajak, informasi registrasi telah dikirim ke email: email@email.com.</p>
+                    <p>Silahkan periksa pesan masuk email anda dan klik link pada tautan tersebut untuk aktifasi user anda.</p>
+                    <div class="row m-t-15 m-b--20">
+                        <div class="col-xs-12">
+                            <h2><a class="btn bg-blue waves-effect m-b-15" href="{{ route('beranda') }}">Login</a></h2>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

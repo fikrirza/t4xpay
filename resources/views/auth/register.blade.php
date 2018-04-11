@@ -29,7 +29,7 @@
 					<div class="body">
 						<form id="sign_up" method="POST" class="form-horizontal">
 							<div class="msg">Pendaftaran Akun Wajib Pajak</div>
-							<div class="row clearfix">
+							{{-- <div class="row clearfix">
 								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-5 form-control-label">
 									<label for="">Jenis Wajib Pajak<small>*</small></label>
 								</div>
@@ -41,7 +41,7 @@
 										<label for="radio_4">Badan Usaha</label>									
 									</div>
 								</div>
-							</div>
+							</div> --}}
 							<div class="row clearfix">
 								<div class="col-lg-3 col-md-3 col-sm-3 col-xs-5 form-control-label">
 									<label for="">Nomor Induk Kependudukan (NIK)<small>*</small></label>
@@ -100,17 +100,17 @@
 								<div class="col-md-5 col-sm-5 col-xs-5 form-control-label">
 									<label for="">RT<small>*</small></label>
 								</div>
-								<div class="col-md-2 col-sm-2 col-xs-7">
+								<div class="col-md-2 col-sm-2 col-xs-2">
 									<div class="form-group">
 										<div class="form-line">
 											<input type="text" id="rt" class="form-control" placeholder="RT" disabled>
 										</div>
  									</div>
 								</div>
-								<div class="col-md-1 col-sm-1 col-xs-1 form-control-label">
+								<div class="col-md-1 col-sm-1 col-xs-2 form-control-label">
 									<label for="">RW<small>*</small></label>
 								</div>
-								<div class="col-md-2 col-sm-2 col-xs-7">
+								<div class="col-md-2 col-sm-2 col-xs-3">
 									<div class="form-group">
 										<div class="form-line">
 											<input type="text" id="rw" class="form-control" placeholder="RW" disabled>

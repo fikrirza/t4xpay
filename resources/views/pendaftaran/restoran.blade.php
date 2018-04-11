@@ -11,7 +11,7 @@
 
 @section('content')
 <ol class="breadcrumb">
-	<li><a href="javascript:void(0);">Beranda</a></li>
+	<li><a href="{{ route('beranda') }}">Beranda</a></li>
 	<li class="active">Pendaftaran Restoran</li>
 </ol>
 
@@ -23,7 +23,7 @@
 				<h2>
 					DAFTAR RESTORAN
 				</h2>
-				<div class="header-dropdown">
+				<div class="align-right">
 					<a href="{{ route('pendaftaran-restoran-tambah') }}" class="btn btn-primary waves-effect">Tambah Objek Restoran</a>
 				</div>
 			</div>
@@ -48,8 +48,8 @@
 								<td>Jl. Denpasar Kav 51 Karet</td>
 								<td>Dalam Proses Verifikasi</td>
 								<td>
-									<a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a>
-									<a href="" class="btn btn-warning btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Ubah"><i class="material-icons">edit</i></a>
+									<h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4>
+									<h4><a href="" class="label label-warning waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Ubah</a></h4>									
 								</td>
 							</tr>
 							<tr>
@@ -58,7 +58,7 @@
 								<td>Restoran 2</td>
 								<td>Jl. Surabaya No. 33 Menteng</td>
 								<td>Terverifikasi</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 							<tr>
 								<td>3</td>
@@ -66,7 +66,7 @@
 								<td>Restoran 3</td>
 								<td>Jl. Panjang Sekali Cipulir</td>
 								<td>Terverifikasi</td>
-								<td><a href="" class="btn btn-primary btn-circle waves-effect waves-circle waves-float" data-toggle="tooltip" data-placement="top" title="Detil"><i class="material-icons">info</i></a></td>
+								<td><h4><a href="" class="label label-info waves-float" data-toggle="tooltip" data-placement="top" title="Detil">Detil</a></h4></td>
 							</tr>
 						</tbody>
 					</table>
@@ -82,12 +82,15 @@
 <script src="{{ asset('plugins/jquery-datatable/jquery.dataTables.js') }}"></script>
 <script src="{{ asset('plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js') }}"></script>
 <script>
-$('.basic-example').DataTable({
-	responsive: true
-});
+$(function () {
+    $('.basic-example').DataTable({
+        responsive: true
+    });
 
-$('[data-toggle="tooltip"]').tooltip({
-	container: 'body'
+	$('[data-toggle="tooltip"]').tooltip({
+		container: 'body'
+	});
+    
 });
 </script>
 @endsection
