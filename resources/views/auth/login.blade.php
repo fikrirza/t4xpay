@@ -30,7 +30,7 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="body">
-                    <form id="sign_in" method="POST" action="{{ route('login') }}">
+                    <form id="sign_in" action="{{ route('beranda') }}">
                         <div class="msg">Silahkan Login</div>
                         <div class="input-group">
                             <span class="input-group-addon">
