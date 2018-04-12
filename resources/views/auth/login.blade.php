@@ -24,7 +24,7 @@
             <div class="logo">    
                 <img src="{{ asset('images/logo-cartenz.jpeg') }}" alt="cartenz">
                 <img src="{{ asset('images/kemenkeu.png') }}" alt="kemenkeu">
-                <a href="javascript:void(0);">Rasakan pengalaman pengelolaan pajak yang terintegrasi, lebih cepat, lebih mudah dan aman</a>
+                <a href="javascript:void(0);" class="align-justify">Rasakan Pengalaman Pengelolaan Pajak Yang Terintegrasi, Lebih Cepat, Lebih Mudah Dan Aman.</a>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">

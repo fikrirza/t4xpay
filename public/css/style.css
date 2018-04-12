@@ -2349,7 +2349,25 @@
     margin-bottom: 15px; }
   .panel-switch-btn {
     top: 12px;
-    right: 0 !important; } }
+    right: 0 !important; } 
+
+  .login-page .login-box .logo {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: -50px; }
+  .login-page .login-box .logo a {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #fff; }
+  .login-page .login-box .logo img {
+    background-position-x: center;
+    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;}  
+  }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar > .container .navbar-brand,
