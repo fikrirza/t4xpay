@@ -7532,7 +7532,11 @@ fieldset[disabled] .form-control {
       cursor: default;
       display: block;
       position: relative;
-      top: 25px; }
+      top: 25px;
+      background-color: #8990b659;
+      -webkit-border-radius: 18px;
+      -moz-border-radius: 18px;
+      border-radius: 18px; }
       .sidebar .user-info .info-container .name {
         white-space: nowrap;
         -ms-text-overflow: ellipsis;
@@ -7541,7 +7545,8 @@ fieldset[disabled] .form-control {
         overflow: hidden;
         font-size: 14px;
         max-width: 200px;
-        color: #fff; }
+        color: #000;
+        padding-left: 15px; }
       .sidebar .user-info .info-container .email {
         white-space: nowrap;
         -ms-text-overflow: ellipsis;
@@ -7550,17 +7555,18 @@ fieldset[disabled] .form-control {
         overflow: hidden;
         font-size: 12px;
         max-width: 200px;
-        color: #fff; }
+        color: #000; 
+        padding-left: 15px;}
       .sidebar .user-info .info-container .user-helper-dropdown {
         position: absolute;
-        right: -3px;
-        bottom: -12px;
+        right: 10px;
+        bottom: -8px;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         -ms-box-shadow: none;
         box-shadow: none;
         cursor: pointer;
-        color: #fff; }
+        color: #000; }
   .sidebar .menu {
     position: relative;
     overflow-y: auto;
