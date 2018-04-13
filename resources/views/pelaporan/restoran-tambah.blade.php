@@ -81,7 +81,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nama_objek_pajak" class="form-control" placeholder="Nama Objek Pajak (auto)" readonly>
+									<input type="text" name="nama_objek_pajak" class="form-control" placeholder="Nama Objek Pajak" readonly>
 								</div>
 							</div>
 						</div>
@@ -93,7 +93,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<textarea id="password_2" class="form-control" placeholder="Alamat objek pajak (auto)" readonly></textarea>
+									<textarea name="alamat" class="form-control" placeholder="Alamat objek pajak" readonly></textarea>
 								</div>
 							</div>
 						</div>
@@ -105,7 +105,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="RT (auto)" readonly>
+									<input type="number" name="rt" class="form-control" placeholder="RT" readonly>
 								</div>
 							</div>
 						</div>
@@ -115,20 +115,20 @@
 						<div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="RW (auto)" readonly>
+									<input type="number" name="rt" class="form-control" placeholder="RW" readonly>
 								</div>
 							</div>
                         </div>
                         <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                <label for="">Kode Pos</label>
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="text" id="kode_pos" class="form-control" placeholder="Kode Pos (auto)" readonly>
-                                    </div>
+                            <label for="">Kode Pos</label>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="number" name="kode_pos" class="form-control" placeholder="Kode Pos" readonly>
                                 </div>
                             </div>
+                        </div>
 					</div>
 					<div class="row clearfix">
 						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
@@ -137,7 +137,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="npwpd" class="form-control" placeholder="NPWPD (auto)" readonly>
+									<input type="number" name="npwpd" class="form-control" placeholder="NPWPD" readonly>
 								</div>
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nopd" class="form-control" placeholder="NOPD (auto)" readonly>
+									<input type="number" name="nopd" class="form-control" placeholder="NOPD" readonly>
 								</div>
 							</div>
 						</div>

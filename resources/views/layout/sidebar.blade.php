@@ -42,12 +42,12 @@
 						<li class="{{ Route::is('pendaftaran-pbb*') ? 'active' : '' }}">
 							<a href="{{ route('pendaftaran-pbb') }}">PBB</a>
 						</li>
-						<li class="{{ Route::is('pendaftaran-hotel') ? 'active' : '' }}">
+						<li class="{{ Route::is('pendaftaran-hotel*') ? 'active' : '' }}">
 							<a href="{{ route('pendaftaran-hotel') }}">Hotel</a>
 						</li>
 					</ul>
 				</li>
-				<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}">
+				<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}{{ Route::is('pelaporan-hotel*') ? 'active' : '' }}">
 					<a href="javascript:void(0);" class="menu-toggle">
 						<i class="material-icons">description</i>
 						<span>Pelaporan</span>
@@ -56,11 +56,8 @@
 						<li class="{{ Route::is('pelaporan-restoran*') ? 'active' : '' }}">
 							<a href="{{ route('pelaporan-restoran') }}">Restoran</a>
 						</li>
-						<li>
-							<a href="">PBB</a>
-						</li>
-						<li>
-							<a href="">Hotel</a>
+						<li class="{{ Route::is('pelaporan-hotel*') ? 'active' : '' }}">
+							<a href="{{ route('pelaporan-hotel') }}">Hotel</a>
 						</li>
 					</ul>
 				</li>

@@ -28,6 +28,12 @@ Route::get('/pendaftaran-pbb-tambah', function() { return view('pendaftaran.pbb-
 
 /* PENDAFTARAN HOTEL */
 Route::get('/pendaftaran-hotel', function() { return view('pendaftaran.hotel'); })->name('pendaftaran-hotel');
+Route::get('/pendaftaran-hotel-tambah', function() { return view('pendaftaran.hotel-tambah'); })->name('pendaftaran-hotel-tambah');
+
+/* PELAPORAN HOTEL */
+Route::get('/pelaporan-hotel', function() { return view('pelaporan.hotel'); })->name('pelaporan-hotel');
+Route::get('/pelaporan-hotel-detil', function() { return view('pelaporan.hotel-detil'); })->name('pelaporan-hotel-detil');
+Route::get('/pelaporan-hotel-tambah', function() { return view('pelaporan.hotel-tambah'); })->name('pelaporan-hotel-tambah');
 
 
 /* PENDAFTARAN RESTORAN */

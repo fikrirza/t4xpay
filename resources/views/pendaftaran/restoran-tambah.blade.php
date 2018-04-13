@@ -34,7 +34,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nama_objek_pajak" class="form-control" placeholder="Nama Objek Pajak" required>
+									<input type="text" name="nama_objek_pajak" class="form-control" placeholder="Nama Objek Pajak" required>
 								</div>
 							</div>
 						</div>
@@ -46,7 +46,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<textarea id="password_2" class="form-control" placeholder="Alamat objek pajak" required></textarea>
+									<textarea name="alamat" class="form-control" placeholder="Alamat objek pajak" required></textarea>
 								</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="RT" required>
+									<input type="number" name="rt" class="form-control" placeholder="RT" required>
 								</div>
 							</div>
 						</div>
@@ -68,7 +68,7 @@
 						<div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="rw" class="form-control" placeholder="RW" required>
+									<input type="number" name="rw" class="form-control" placeholder="RW" required>
 								</div>
 							</div>
 						</div>
@@ -80,7 +80,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<select class="form-control show-tick" data-live-search="true" required>
+									<select class="form-control show-tick" name="kelurahan" data-live-search="true" required>
                                         <option value="">-- Pilih Kelurahan --</option>
                                         <option>Kelurahan 1</option>
                                         <option>Kelurahan 2</option>
@@ -98,7 +98,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<select class="form-control show-tick" data-live-search="true" required>
+									<select class="form-control show-tick" name="kecamatan" data-live-search="true" required>
                                         <option value="">-- Pilih Kecamatan --</option>
                                         <option>Kecamatan 1</option>
                                         <option>Kecamatan 2</option>
@@ -116,7 +116,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<select class="form-control show-tick" data-live-search="true" required>
+									<select class="form-control show-tick" name="kota" data-live-search="true" required>
                                         <option value="">-- Pilih Kota --</option>
                                         <option>Kota 1</option>
                                         <option>Kota 2</option>
@@ -134,7 +134,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nomor_telepon" class="form-control" placeholder="Nomor Telepon" required>
+									<input type="number" name="nomor_telepon" class="form-control" placeholder="Nomor Telepon" required>
 								</div>
 							</div>
 						</div>
@@ -146,7 +146,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="tmt_operasi" class="form-control" placeholder="TMT Operasi" required>
+									<input type="text" name="tmt_operasi" class="form-control" placeholder="TMT Operasi" required>
 								</div>
 							</div>
 						</div>
@@ -158,7 +158,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nop_pbb" class="form-control" placeholder="NOP PBB" required>
+									<input type="number" name="nop_pbb" class="form-control" placeholder="NOP PBB" required>
 								</div>
 							</div>
 						</div>
@@ -173,7 +173,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nama_badan_hukum" class="form-control" placeholder="Nama Badan Hukum" required>
+									<input type="text" name="nama_badan_hukum" class="form-control" placeholder="Nama Badan Hukum" required>
 								</div>
 							</div>
 						</div>
@@ -185,7 +185,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nik_npwp" class="form-control" placeholder="NIK/NPWP" required>
+									<input type="number" name="nik_npwp" class="form-control" placeholder="NIK/NPWP" required>
 								</div>
 							</div>
 						</div>
@@ -197,7 +197,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="npwpd" class="form-control" placeholder="NPWPD" required>
+									<input type="number" name="npwpd" class="form-control" placeholder="NPWPD" required>
 								</div>
 							</div>
 						</div>
@@ -212,7 +212,7 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<div class="form-line">
-									<input type="text" id="nama_restoran" class="form-control" placeholder="Nama Restoran" required>
+									<input type="text" name="nama_restoran" class="form-control" placeholder="Nama Restoran" required>
 								</div>
 							</div>
 						</div>
@@ -237,15 +237,15 @@
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
 								<input name="jenis_masakan" type="radio" id="radio_30" class="with-gap radio-col-red" />
-                                <label for="radio_30">Masakan Indonesia</label><br>
+                                <label for="radio_30">Masakan Indonesia</label>&nbsp;
                                 <input name="jenis_masakan" type="radio" id="radio_31" class="with-gap radio-col-red" />
-                                <label for="radio_31">Fast Food</label><br>
+                                <label for="radio_31">Fast Food</label>&nbsp;
                                 <input name="jenis_masakan" type="radio" id="radio_32" class="with-gap radio-col-red" />
-                                <label for="radio_32">Sea Food</label><br>
+                                <label for="radio_32">Sea Food</label>&nbsp;
                                 <input name="jenis_masakan" type="radio" id="radio_33" class="with-gap radio-col-red" />
-                                <label for="radio_33">Masakan Padang</label><br>
+                                <label for="radio_33">Masakan Padang</label>&nbsp;
                                 <input name="jenis_masakan" type="radio" id="radio_34" class="with-gap radio-col-red" />
-                                <label for="radio_34">Masakan Amerika/Eropa</label><br>
+                                <label for="radio_34">Masakan Amerika/Eropa</label>&nbsp;
                                 <input name="jenis_masakan" type="radio" id="radio_35" class="with-gap radio-col-red" />
                                 <label for="radio_35">Chinese/ Japanesse/ Korean Food</label>
 							</div>
@@ -259,7 +259,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" class="form-control" name="luas_tanah" placeholder="Luas Tanah" required>
 									</div>
 									<span class="input-group-addon">M<sup>2</sup></span>
 								</div>
@@ -272,7 +272,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" class="form-control" name="luas_bangunan" placeholder="Luas Bangunan" required>
 									</div>
 									<span class="input-group-addon">M<sup>2</sup></span>
 								</div>
@@ -287,7 +287,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" class="form-control" name="luas_tempat_usaha" placeholder="Luas Tempat Usaha" required>
 									</div>
 									<span class="input-group-addon">M<sup>2</sup></span>
 								</div>
@@ -300,11 +300,11 @@
 						</div>
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
 							<div class="form-group">
-								<input name="group5" type="radio" id="radio_47" class="with-gap radio-col-red" />
+								<input name="stt_tempat_usaha" type="radio" id="radio_47" class="with-gap radio-col-red" />
                                 <label for="radio_47">Milik Sendiri</label><br>
-                                <input name="group5" type="radio" id="radio_48" class="with-gap radio-col-red" />
+                                <input name="stt_tempat_usaha" type="radio" id="radio_48" class="with-gap radio-col-red" />
                                 <label for="radio_48">Sewa/Kontrak</label><br>
-                                <input name="group5" type="radio" id="radio_49" class="with-gap radio-col-red" />
+                                <input name="stt_tempat_usaha" type="radio" id="radio_49" class="with-gap radio-col-red" />
                                 <label for="radio_49">Bagi Hasil</label>
 							</div>
 						</div>
@@ -343,11 +343,11 @@
 						</div>
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
-								<input name="group4" type="radio" id="radio_45" class="with-gap radio-col-red" />
+								<input name="bukti_bayar" type="radio" id="radio_45" class="with-gap radio-col-red" />
                                 <label for="radio_45">Bon/Bill</label><br>
-                                <input name="group4" type="radio" id="radio_46" class="with-gap radio-col-red" />
+                                <input name="bukti_bayar" type="radio" id="radio_46" class="with-gap radio-col-red" />
                                 <label for="radio_46">Struk/Kas Register</label><br>
-								<input name="group4" type="radio" id="radio_44" class="with-gap radio-col-red" />
+								<input name="bukti_bayar" type="radio" id="radio_44" class="with-gap radio-col-red" />
                                 <label for="radio_44">Lainnya</label><br>
 							</div>
 						</div>
@@ -357,12 +357,12 @@
 							<label for="">Alat Transaksi</label>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
-							<div class="input-group">
+							<div class="form-group input-group">
 								<span class="input-group-addon">
 									Merk
 								</span>
 								<div class="form-line">
-									<input type="text" class="form-control" placeholder="" required>
+									<input type="text" name="merk" class="form-control" placeholder="Merk" required>
 								</div>
 							</div>
 						</div>
@@ -372,12 +372,12 @@
 							<label for=""></label>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
-							<div class="input-group">
+							<div class="form-group input-group">
 								<span class="input-group-addon">
 									Type
 								</span>
 								<div class="form-line">
-									<input type="text" class="form-control" placeholder="" required>
+									<input type="text" name="type" class="form-control" placeholder="Type" required>
 								</div>
 							</div>
 						</div>
@@ -387,12 +387,12 @@
 							<label for=""></label>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
-							<div class="input-group">
+							<div class="form-group input-group">
 								<span class="input-group-addon">
 									Jumlah
 								</span>
 								<div class="form-line">
-									<input type="text" class="form-control" placeholder="" required>
+									<input type="number" name="jumlah" class="form-control" placeholder="Jumlah" required>
 								</div>
 							</div>
 						</div>
@@ -403,13 +403,13 @@
 						</div>
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
 							<div class="form-group">
-								<input type="checkbox" id="md_checkbox_21" class="filled-in chk-col-red" />
-                                <label for="md_checkbox_21">Ruang Pertemuan</label><br>
-                                <input type="checkbox" id="md_checkbox_22" class="filled-in chk-col-red" />
-                                <label for="md_checkbox_22">Musik Hidup</label><br>
-                                <input type="checkbox" id="md_checkbox_23" class="filled-in chk-col-red" />
-                                <label for="md_checkbox_23">Private Room</label><br>
-                                <input type="checkbox" id="md_checkbox_24" class="filled-in chk-col-red" />
+								<input type="checkbox" name="fasilitas_penunjang" id="md_checkbox_21" class="filled-in chk-col-red" />
+                                <label for="md_checkbox_21">Ruang Pertemuan</label>&nbsp;
+                                <input type="checkbox" name="fasilitas_penunjang" id="md_checkbox_22" class="filled-in chk-col-red" />
+                                <label for="md_checkbox_22">Musik Hidup</label>&nbsp;
+                                <input type="checkbox" name="fasilitas_penunjang" id="md_checkbox_23" class="filled-in chk-col-red" />
+                                <label for="md_checkbox_23">Private Room</label>&nbsp;
+                                <input type="checkbox" name="fasilitas_penunjang" id="md_checkbox_24" class="filled-in chk-col-red" />
                                 <label for="md_checkbox_24">Lainnya</label>
 							</div>
 						</div>
@@ -422,7 +422,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" name="jumlah_meja" class="form-control" placeholder="Jumlah Meja" required>
 									</div>
 								</div>
 							</div>
@@ -434,7 +434,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" name="jumlah_kursi" class="form-control" placeholder="Jumlah Kursi" required>
 									</div>
 								</div>
 							</div>
@@ -464,7 +464,7 @@
 										Motor
 									</span>
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" class="form-control" placeholder="" required>
 									</div>
 									<span class="input-group-addon">
 										Unit
@@ -482,7 +482,7 @@
 										Mobil
 									</span>
 									<div class="form-line">
-										<input type="text" class="form-control" placeholder="" required>
+										<input type="number" class="form-control" placeholder="" required>
 									</div>
 									<span class="input-group-addon">
 										Unit
@@ -516,117 +516,99 @@
 							</div>
 						</div>
 					</div>
+
+					<h2 class="card-inside-title">IV. Lampiran Perizinan</h2>
 					<div class="row clearfix">
-						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 form-control-label">
-							<label for="">Jenis Perizinan</label>
-						</div>
-					</div>
-					<div class="row clearfix">
-						<div class="col-lg-5 col-md-5 col-sm-3 col-xs-3 form-control-label">
-							<label for="">a. Izin Pariwisata Nomor</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 form-control-label"><label for="">Jenis Perizinan</label></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="number" name="izin_pariwisata" class="form-control">
+									<label class="form-label">Izin Pariwisata Nomor</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-3 form-control-label">
-							<label for="">Masa berlaku</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="text" name="izin_pariwisata_berlaku" class="form-control">
+									<label class="form-label">Masa Berlaku</label>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row clearfix">
-						<div class="col-lg-5 col-md-5 col-sm-3 col-xs-3 form-control-label">
-							<label for="">b. Izin Undang-undang Gangguan</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 form-control-label"></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="number" class="form-control" name="izin_gangguan">
+									<label class="form-label">Izin Undang-undang Gangguan</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
-							<label for="">Masa berlaku</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row clearfix">
-						<div class="col-lg-5 col-md-5 col-sm-3 col-xs-3 form-control-label">
-							<label for="">c. Izin Sumur Bor</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
-								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
-							<label for="">Masa berlaku</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
-								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="text" class="form-control" name="izin_gangguan_berlaku">
+									<label class="form-label">Masa Berlaku</label>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row clearfix">
-						<div class="col-lg-5 col-md-5 col-sm-3 col-xs-3 form-control-label">
-							<label for="">d. Izin Mengelola Parkir</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 form-control-label"></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="number" name="izin_sumur_bor" class="form-control">
+									<label class="form-label">Izin Sumur Bor</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
-							<label for="">Masa berlaku</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="text" name="izin_sumur_bor_berlaku" class="form-control">
+									<label class="form-label">Masa Berlaku</label>                                            
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row clearfix">
-						<div class="col-lg-5 col-md-5 col-sm-3 col-xs-3 form-control-label">
-							<label for="">e. Izin Reklame</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 form-control-label"></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="number" name="izin_mengelola_parkir" class="form-control">
+									<label class="form-label">Izin Mengelola Parkir</label>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 form-control-label">
-							<label for="">Masa berlaku</label>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
-							<div class="form-group">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<div class="form-group form-float">
 								<div class="form-line">
-									<input type="text" id="rt" class="form-control" placeholder="">
+									<input type="text" name="izin_mengelola_parkir" class="form-control">
+									<label class="form-label">Masa Berlaku</label>                                            
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1 form-control-label"></div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+							<div class="form-group form-float">
+								<div class="form-line">
+									<input type="number" name="izin_reklame" class="form-control">
+									<label class="form-label">Izin Reklame</label>                                            
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+							<div class="form-group form-float">
+								<div class="form-line">
+									<input type="text" name="izin_reklame" class="form-control">
+									<label class="form-label">Masa Berlaku</label>                                            
 								</div>
 							</div>
 						</div>
@@ -651,9 +633,7 @@
 						</div>
 						<div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
 							<div class="form-group">
-								<div class="form-line">
-									<textarea rows="3" id="password_2" class="form-control" readonly>Dengan menyadari sepenuhnya akan segala akibat termasuk sanksi-sanksi sesuai dengan ketentuan perundang-undangan yang berlaku, saya menyatakan bahwa apa yang telah saya beri tahukan di atas, beserta lampiran-lampirannya adalah benar dan lengkap.</textarea>
-								</div>
+								<textarea rows="3" id="password_2" class="form-control" readonly>Dengan menyadari sepenuhnya akan segala akibat termasuk sanksi-sanksi sesuai dengan ketentuan perundang-undangan yang berlaku, saya menyatakan bahwa apa yang telah saya beri tahukan di atas, beserta lampiran-lampirannya adalah benar dan lengkap.</textarea>
 							</div>
 						</div>
 					</div>
@@ -676,9 +656,45 @@
 
 @section('bottomscript')
 <script src="{{ asset('plugins/jquery-validation/jquery.validate.js') }}"></script>
-<script src="{{ asset('js/pages/forms/form-validation.js') }}"></script>
 <script>
 $(document).ready(function () {
+	
+	$('#form_validation').validate({
+		rules: {
+            'status_usaha': {
+                required: true
+			},
+			'jenis_masakan': {
+                required: true
+			},
+			'stt_tempat_usaha': {
+                required: true
+			},
+			'bukti_bayar': {
+                required: true
+			},
+			'parkir': {
+                required: true
+			},
+			'bayaran': {
+                required: true
+			},
+			'fasilitas_penunjang': {
+                required: true
+			},
+        },
+
+        highlight: function (input) {
+            $(input).parents('.form-line').addClass('error');
+        },
+        unhighlight: function (input) {
+            $(input).parents('.form-line').removeClass('error');
+        },
+        errorPlacement: function (error, element) {
+            $(element).parents('.form-group').append(error);
+        }
+	});
+
     $(".box").hide();
     $("#radio_36").click(function () {
         $(".box").show();
