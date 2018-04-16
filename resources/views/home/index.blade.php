@@ -18,6 +18,70 @@
 
 
 <div class="row clearfix">
+	<div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-red">
+				<i class="material-icons">local_dining</i>
+			</div>
+			<div class="content">
+				<div class="text"><a href="{{ route('pendaftaran-restoran') }}">PAJAK RESTORAN</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-pink">
+				<i class="material-icons">home</i>
+			</div>
+			<div class="content">
+				<div class="text"><a href="{{ route('pendaftaran-pbb') }}">PAJAK PBB</a></div>
+			</div>
+		</div>
+
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-blue">
+				<i class="material-icons">hotel</i>
+			</div>
+			<div class="content">
+				<div class="text"><a href="{{ route('pendaftaran-hotel') }}">PAJAK HOTEL</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-light-blue">
+				<i class="material-icons">mic</i>
+			</div>
+			<div class="content">
+				<div class="text">PAJAK HIBURAN</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-cyan">
+				<i class="material-icons">image</i>
+			</div>
+			<div class="content">
+				<div class="text">PAJAK REKLAME</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+		<div class="info-box hover-zoom-effect">
+			<div class="icon bg-green">
+				<i class="material-icons">motorcycle</i>
+			</div>
+			<div class="content">
+				<div class="text">PAJAK PARKIR</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row clearfix">
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
@@ -26,17 +90,17 @@
 			<div class="body">
 				<div class="row clearfix">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img class="img-responsive thumbnail" src="{{ asset('images/user-a.png') }}">
+						<img class="img-responsive thumbnail" src="{{ asset('images/user-b.jpg') }}">
 					</div>
 					<div class="col-md-9">
 						<table class="table">
 							<tr>
 								<td>Nama</td>
-								<td>Pengguna</td>
+								<td>M. Sukarya</td>
 							</tr>
 							<tr>
 								<td>Alamat</td>
-								<td>Jl. XYZ</td>
+								<td>Jl. Perjuangan I RT. 08 RW. 10 Grogol</td>
 							</tr>
 							<tr>
 								<td>No. Telp</td>
@@ -48,15 +112,15 @@
 							</tr>
 							<tr>
 								<td>Email</td>
-								<td>pengguna@email.com</td>
+								<td>sukarya@email.com</td>
 							</tr>
 							<tr>
 								<td>Facebook</td>
-								<td>http://www.facebook.com/fb-pengguna</td>
+								<td>https://www.facebook.com/fb-sukarya</td>
 							</tr>
 							<tr>
 								<td>Twitter</td>
-								<td>@pengguna</td>
+								<td>https://twiiter.com/sukarya</td>
 							</tr>
 						</table>
 					</div>
@@ -97,11 +161,11 @@
 								<tr>
 									<td>3</td>
 									<td>PBB</td>
-									<td>31709xxxxxxxxx444476</td>
+									<td>31709xxxxxxxxx63476</td>
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Lewat 1 Bulan</td>
-									<td><a href="{{ route('pembayaran-restoran-detil') }}" class="btn btn-danger waves-effect">Pembayaran</a></td>
+									<td><a href="{{ route('pembayaran-pbb-detil') }}" class="btn btn-danger waves-effect">Pembayaran</a></td>
 								</tr>
 								<tr>
 									<td>4</td>
@@ -110,7 +174,7 @@
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Belum Lapor</td>
-									<td><a href="{{ route('pelaporan-restoran-tambah') }}" class="btn btn-success waves-effect">Pelaporan</a></td>
+									<td><a href="{{ route('pelaporan-hotel-detil') }}" class="btn btn-success waves-effect">Pelaporan</a></td>
 								</tr>
 							</tbody>
 						</table>

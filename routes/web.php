@@ -25,6 +25,9 @@ Route::get('/beranda', function() { return view('home.index'); })->name('beranda
 Route::get('/pendaftaran-pbb', function() { return view('pendaftaran.pbb'); })->name('pendaftaran-pbb');
 Route::get('/pendaftaran-pbb-tambah', function() { return view('pendaftaran.pbb-tambah'); })->name('pendaftaran-pbb-tambah');
 
+/* PEMBAYARAN PBB */
+Route::get('/pembayaran-pbb', function() { return view('pembayaran.pbb'); })->name('pembayaran-pbb');
+Route::get('/pembayaran-pbb-detil', function() { return view('pembayaran.pbb-detil'); })->name('pembayaran-pbb-detil');
 
 /* PENDAFTARAN HOTEL */
 Route::get('/pendaftaran-hotel', function() { return view('pendaftaran.hotel'); })->name('pendaftaran-hotel');
@@ -34,6 +37,8 @@ Route::get('/pendaftaran-hotel-tambah', function() { return view('pendaftaran.ho
 Route::get('/pelaporan-hotel', function() { return view('pelaporan.hotel'); })->name('pelaporan-hotel');
 Route::get('/pelaporan-hotel-detil', function() { return view('pelaporan.hotel-detil'); })->name('pelaporan-hotel-detil');
 Route::get('/pelaporan-hotel-tambah', function() { return view('pelaporan.hotel-tambah'); })->name('pelaporan-hotel-tambah');
+
+
 
 
 /* PENDAFTARAN RESTORAN */
@@ -54,8 +59,10 @@ Route::get('/pembayaran-restoran-detil', function() { return view('pembayaran.re
 Route::get('/pembayaran-restoran-tambah', function() { return view('pembayaran.restoran-tambah'); })->name('pembayaran-restoran-tambah');
 
 
-/* PEMBAYARAN RESTORAN */
+
+/* PEMBAYARAN */
 Route::get('/transaksi-pembayaran', function() { return view('transaksi.index'); })->name('transaksi-pembayaran');
 Route::get('/bukti-pembayaran', function() { return view('transaksi.bukti'); })->name('bukti-pembayaran');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/transaksi-pembayaran-pbb', function() { return view('transaksi.index-pbb'); })->name('transaksi-pembayaran-pbb');
+Route::get('/bukti-pembayaran-pbb', function() { return view('transaksi.bukti-pbb'); })->name('bukti-pembayaran-pbb');

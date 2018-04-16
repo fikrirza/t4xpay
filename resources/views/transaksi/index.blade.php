@@ -160,36 +160,171 @@
 
                     <h3>Metode Pembayaran</h3>
                     <fieldset>
-                        <h4>Transfer Bank</h4>
-                        <div class="list-group">
-                            <a class="list-group-item" role="button" data-toggle="collapse" href="#tf_bank_daerah" aria-expanded="false" aria-controls="tf_bank_daerah">BANK DAERAH</a>
-                            <div class="collapse" id="tf_bank_daerah">
-                                <div class="well">
-                                    <p class="font-bold">BANK DAERAH</p>
-                                    <p>Cabang Bank Daerah</p>
-                                    <p>Nomor rekening: 178 303 7878</p>
-                                    <p>Atas Nama: PENERIMAAN PAJAK DAERAH</p>
+                        <h4>Virtual Account</h4>
+                        <div class="panel-group" id="accordion_1" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingOne_1">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseOne_1" aria-expanded="true" aria-controls="collapseOne_1">BCA VIRTUAL ACCOUNT</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne_1">
+                                    <div class="panel-body">
+                                        <p class="font-bold">ATM BCA</p>
+                                        <p>1. Masukkan Kartu ATM BCA & PIN</p>
+                                        <p>2. Pilih menu Transaksi Lainnya > Transfer > ke Rekening BCA Virtual Account</p>
+                                        <p>3. Masukkan 5 angka kode perusahaan untuk TaxPayer (80777) dan Nomor HP yang terdaftar di akun TaxPayer Anda (Contoh: 80777085694965855)</p>
+                                        <p>4. Di halaman konfirmasi, pastikan detil pembayaran sudah sesuai seperti No VA, Nama, Perus/Produk dan Total Tagihan</p>
+                                        <p>5. Masukkan Jumlah Transfer sesuai dengan Total Tagihan</p>
+                                        <p>6. Ikuti instruksi untuk menyelesaikan transaksi</p>
+                                        <p>7. Simpan struk transaksi sebagai bukti pembayaran</p>
+                                    </div>
                                 </div>
                             </div>
-                            <a href="#tf_bank_bca" onclick="toggle_visibility('tf_bank_bca');" class="list-group-item">BANK BCA</a>
-                            <a href="#tf_bank_mandiri" onclick="toggle_visibility('tf_bank_mandiri');" class="list-group-item">BANK MANDIRI</a>
-                            <a href="#tf_bank_bni" onclick="toggle_visibility('tf_bank_bni');" class="list-group-item">BANK BNI</a>
-                            <a href="#tf_bank_bri" onclick="toggle_visibility('tf_bank_bri');" class="list-group-item">BANK BRI</a>
-                        </div>
-
-                        <h4>Virtual Account</h4>
-                        <div class="list-group">
-                            <a href="javascript:void(0);" class="list-group-item">BCA VIRTUAL ACCOUNT</a>
-                            <a href="javascript:void(0);" class="list-group-item">MANDIRI VIRTUAL ACCOUNT</a>
-                            <a href="javascript:void(0);" class="list-group-item">BRIVA</a>
-                            <a href="javascript:void(0);" class="list-group-item">BNI VIRTUAL ACCOUNT</a>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingTwo_1">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseTwo_1" aria-expanded="false" aria-controls="collapseTwo_1"> MANDIRI VIRTUAL ACCOUNT </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_1">
+                                    <div class="panel-body">
+                                        <p class="font-bold">ATM MANDIRI</p>
+                                        <p>1. Masukkan Kartu ATM MANDIRI & PIN</p>
+                                        <p>2. Pilih menu Transaksi Lainnya > Transfer > ke Rekening MANDIRI Virtual Account</p>
+                                        <p>3. Masukkan 5 angka kode perusahaan untuk TaxPayer (80777) dan Nomor HP yang terdaftar di akun TaxPayer Anda (Contoh: 80777085694965855)</p>
+                                        <p>4. Di halaman konfirmasi, pastikan detil pembayaran sudah sesuai seperti No VA, Nama, Perus/Produk dan Total Tagihan</p>
+                                        <p>5. Masukkan Jumlah Transfer sesuai dengan Total Tagihan</p>
+                                        <p>6. Ikuti instruksi untuk menyelesaikan transaksi</p>
+                                        <p>7. Simpan struk transaksi sebagai bukti pembayaran</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingThree_1">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseThree_1" aria-expanded="false" aria-controls="collapseThree_1"> BRIVA </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_1">
+                                    <div class="panel-body">
+                                        <p class="font-bold">ATM BRIVA</p>
+                                        <p>1. Masukkan Kartu ATM BRIVA & PIN</p>
+                                        <p>2. Pilih menu Transaksi Lainnya > Transfer > ke Rekening BRIVA</p>
+                                        <p>3. Masukkan 5 angka kode perusahaan untuk TaxPayer (80777) dan Nomor HP yang terdaftar di akun TaxPayer Anda (Contoh: 80777085694965855)</p>
+                                        <p>4. Di halaman konfirmasi, pastikan detil pembayaran sudah sesuai seperti No VA, Nama, Perus/Produk dan Total Tagihan</p>
+                                        <p>5. Masukkan Jumlah Transfer sesuai dengan Total Tagihan</p>
+                                        <p>6. Ikuti instruksi untuk menyelesaikan transaksi</p>
+                                        <p>7. Simpan struk transaksi sebagai bukti pembayaran</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingFour_1">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseFour_1" aria-expanded="false" aria-controls="collapseFour_1"> BNI VIRTUAL ACCOUNT </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour_1">
+                                    <div class="panel-body">
+                                        <p class="font-bold">ATM BNI</p>
+                                        <p>1. Masukkan Kartu ATM BNI & PIN</p>
+                                        <p>2. Pilih menu Transaksi Lainnya > Transfer > ke Rekening BNI Virtual Account</p>
+                                        <p>3. Masukkan 5 angka kode perusahaan untuk TaxPayer (80777) dan Nomor HP yang terdaftar di akun TaxPayer Anda (Contoh: 80777085694965855)</p>
+                                        <p>4. Di halaman konfirmasi, pastikan detil pembayaran sudah sesuai seperti No VA, Nama, Perus/Produk dan Total Tagihan</p>
+                                        <p>5. Masukkan Jumlah Transfer sesuai dengan Total Tagihan</p>
+                                        <p>6. Ikuti instruksi untuk menyelesaikan transaksi</p>
+                                        <p>7. Simpan struk transaksi sebagai bukti pembayaran</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h4>Transfer Bank</h4>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingOne_2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseOne_2" aria-expanded="true" aria-controls="collapseOne_2">BANK DAERAH</a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne_2">
+                                    <div class="panel-body">
+                                        <p class="font-bold">BANK DAERAH</p>
+                                        <p>Cabang Bank Daerah</p>
+                                        <p>Nomor rekening: 178 303 7878</p>
+                                        <p>Atas Nama: PENERIMAAN PAJAK DAERAH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingTwo_2">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseTwo_2" aria-expanded="false" aria-controls="collapseTwo_2"> BANK BCA </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_2">
+                                    <div class="panel-body">
+                                        <p class="font-bold">BANK BCA</p>
+                                        <p>Cabang Bank BCA</p>
+                                        <p>Nomor rekening: 6372 8377 8278</p>
+                                        <p>Atas Nama: PENERIMAAN PAJAK DAERAH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingThree_3">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseThree_3" aria-expanded="false" aria-controls="collapseThree_3"> BANK MANDIRI </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_3">
+                                    <div class="panel-body">
+                                        <p class="font-bold">BANK MANDIRI</p>
+                                        <p>Cabang Bank Mandiri</p>
+                                        <p>Nomor rekening: 15500009237786</p>
+                                        <p>Atas Nama: PENERIMAAN PAJAK DAERAH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading" role="tab" id="headingFour_4">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="#collapseFour_4" aria-expanded="false" aria-controls="collapseFour_4"> BANK BNI </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour_4">
+                                    <div class="panel-body">
+                                        <p class="font-bold">BANK BNI</p>
+                                        <p>Cabang Bank BNI</p>
+                                        <p>Nomor rekening: 009378 93287 8278</p>
+                                        <p>Atas Nama: PENERIMAAN PAJAK DAERAH</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
 
                     <h3>Konfirmasi Pembayaran</h3>
                     <fieldset>
+                        <h4>Total Tagihan Rp. 890.000,-</h4>
+                        <a href="#detil_tagihan" class="list-group-item" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="detil_tagihan">Detil Tagihan</a>
+                        <div class="collapse" id="detil_tagihan">
+                            <div class="well">
+                                <p class="font-bold"></p>
+                                <p>Jumlah Tagihan : Rp. 890.000,-</p>
+                                <p>Biaya Admin : Rp. 2.500,-</p>
+                                <p>Total Pembayaran : <u><b>Rp. 892.500,-</b></u></p>
+                            </div>
+                        </div>
 
-
+                        <div class="list-group">
+                            <a href="#va_bca" class="list-group-item" role="button" data-toggle="collapse" aria-expanded="true" aria-controls="va_bca">BCA VIRTUAL ACCOUNT</a>
+                            <div class="">
+                                <div class="well">
+                                    <p class="font-bold">Periksa Kembali Data Pembayaran Anda Sebelum Melanjutkan Transaksi.</p>
+                                    <p class="font-bold">Anda akan mendapatkan kode pembayaran BCA Virtual Account yang akan digunakan untuk membayar transaksi ini di berbagai channel pembayaran BCA.</p>
+                                </div>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>

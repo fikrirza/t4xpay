@@ -4,7 +4,7 @@
 		<!-- User Info -->
 		<div class="user-info">
 			<div class="image">
-				<img src="images/user.png" width="48" height="48" alt="User" />
+				<img src="images/user.jpg" width="48" height="48" alt="User" />
 			</div>
 			<div class="info-container">
 				<div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
@@ -61,7 +61,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}{{ Route::is('transaksi-pembayaran') ? 'active' : '' }}{{ Route::is('bukti-pembayaran') ? 'active' : '' }}">
+				<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}{{ Route::is('transaksi-pembayaran*') ? 'active' : '' }}{{ Route::is('bukti-pembayaran*') ? 'active' : '' }}">
 					<a href="javascript:void(0);" class="menu-toggle">
 						<i class="material-icons">receipt</i>
 						<span>Pembayaran</span>
@@ -70,8 +70,8 @@
 						<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}">
 							<a href="{{ route('pembayaran-restoran') }}">Restoran</a>
 						</li>
-						<li>
-							<a href="">PBB</a>
+						<li class="{{ Route::is('pembayaran-pbb*') ? 'active' : '' }}">
+							<a href="{{ route('pembayaran-pbb') }}">PBB</a>
 						</li>
 						<li>
 							<a href="">Hotel</a>
@@ -84,7 +84,7 @@
 		<!-- Footer -->
 		<div class="legal">
 			<div class="copyright">
-				&copy; 2018 <a href="javascript:void(0);">Solusindo</a>.
+				&copy; 2018 <a href="javascript:void(0);">Cartenz</a>.
 			</div>
 			<div class="version">
 				<b>Version: </b> Dev Mode

@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title')
-<title>Bukti Pembayaran Pajak</title>
+<title>Pembayaran PBB</title>
 @endsection
 
 @section('headscript')
@@ -11,14 +11,14 @@
 @section('content')
 <ol class="breadcrumb">
     <li><a href="{{ route('beranda') }}">Beranda</a></li>
-    <li class="active">Bukti Pembayaran Pajak</li>
+    <li class="active">Pembayaran Pajak PBB</li>
 </ol>
 
 <div class="row clearfix">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card">
             <div class="header">
-                <h2>BUKTI PEMBAYARAN PAJAK RESTORAN</h2>
+                <h2>TERIMA KASIH</h2>
             </div>
             <div class="body">
                 <h4 class="align-center">Menunggu Pembayaran</h4>
@@ -28,7 +28,7 @@
                 <p class="align-center font-bold">80777081878782424</p> 
                 <br><br>
                 <p class="align-center">Jumlah Yang Harus Dibayar</p>
-                <p class="align-center font-bold">Rp. 892.500,-</p>
+                <p class="align-center font-bold">Rp. 1.902.020,-</p>
                 <br>
                 <p class="align-center">Pembayaran akan otomatis dibatalkan apabila Anda tidak melakukan pembayaran lebih dari 1 hari setelah kode pembayaran diberikan.</p>
 
@@ -107,7 +107,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

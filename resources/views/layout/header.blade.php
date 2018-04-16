@@ -15,14 +15,14 @@
 						<span class="label-count"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li class="header">NOTIFICATIONS</li>
+						<li class="header">NOTIFIKASI</li>
 						<li class="body">
 							<ul class="menu">
 								
 							</ul>
 						</li>
 						<li class="footer">
-							<a href="javascript:void(0);">View All Notifications</a>
+							<a href="javascript:void(0);">Tidak Ada Notifikasi</a>
 						</li>
 					</ul>
 				</li>
