@@ -15,6 +15,9 @@
 Route::get('/', function () { return view('auth.login'); })->name('login');
 Route::get('/sign-in', function () { return view('auth.login-page'); })->name('login-page');
 Route::get('/registrasi', function () { return view('auth.register'); })->name('registrasi');
+Route::post('/registrasi', 'RegistrasiController@proses')->name('registrasi-submit');
+Route::get('/registrasi/ceknik/{nik}', 'RegistrasiController@getNIK');
+
 Route::get('/registrasi-sukses', function() { return view('auth.regis-sukses'); })->name('regis-sukses'); 
 Route::get('/lupa-password', function () { return view('auth.lupa-password'); })->name('forgetpass');
 Route::get('/lupa-passwords', function () { return view('auth.lupa-password-sukses'); })->name('forgetpass-sukses');
@@ -69,3 +72,7 @@ Route::get('/bukti-pembayaran', function() { return view('transaksi.bukti'); })-
 
 Route::get('/transaksi-pembayaran-pbb', function() { return view('transaksi.index-pbb'); })->name('transaksi-pembayaran-pbb');
 Route::get('/bukti-pembayaran-pbb', function() { return view('transaksi.bukti-pbb'); })->name('bukti-pembayaran-pbb');
+
+
+/* PROFILE */
+Route::get('/profile', function() { return view('profile.index'); })->name('profile');

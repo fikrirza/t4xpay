@@ -46,6 +46,68 @@
                         </div>
                         <div class="row clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
+                                <label for="">Kota/kab. Adm</label>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <select class="form-control show-tick" name="kota" data-live-search="true" required>
+                                            <option value="">-- Pilih Kota --</option>
+                                            <option value="01">Kab. Jembrana</option>
+                                            <option value="02">Kab. Tabanan</option>
+                                            <option value="03">Kab. Badung</option>
+                                            <option value="04">Kab. Gianyar</option>
+                                            <option value="05">Kab. Klungkung</option>
+                                            <option value="06">Kab. Bangli</option>
+                                            <option value="07">Kab. Karangasem</option>
+                                            <option value="08">Kab. Buleleng</option>
+                                            <option value="71">Kota Denpasar</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
+                                <label for="">Kecamatan</label>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <select class="form-control show-tick" name="kecamatan" data-live-search="true" required>
+                                            <option value="">-- Pilih Kecamatan --</option>
+                                            <option value="10">KUTA</option>
+                                            <option value="20">MENGWI</option>
+                                            <option value="30">ABIANSEMAL</option>
+                                            <option value="40">PETANG</option>
+                                            <option value="50">KUTA SELATAN</option>
+                                            <option value="60">KUTA UTARA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
+                                <label for="">Kelurahan</label>
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <select class="form-control show-tick" name="kelurahan" data-live-search="true" required>
+                                            <option value="">-- Pilih Kelurahan --</option>
+                                            <option value="10.1">TUBAN</option>
+                                            <option value="10.2">KEDONGANAN</option>
+                                            <option value="10.3">KUTA</option>
+                                            <option value="10.4">LEGIAN</option>
+                                            <option value="10.5">SEMINYAK</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
                                 <label for="">Alamat</label>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
@@ -63,7 +125,7 @@
                             <div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="number" name="rt" class="form-control" placeholder="RT" required>
+                                        <input type="number" name="rt" class="form-control" placeholder="RT" value="">
                                     </div>
                                 </div>
                             </div>
@@ -73,61 +135,7 @@
                             <div class="col-lg-2 col-md-2 col-sm-8 col-xs-7">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="number" name="rw" class="form-control" placeholder="RW" required>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
-                                <label for="">Kelurahan</label>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick" name="kelurahan" data-live-search="true" required>
-                                            <option value="">-- Pilih Kelurahan --</option>
-                                            <option>Kelurahan 1</option>
-                                            <option>Kelurahan 2</option>
-                                            <option>Kelurahan 3</option>
-                                            <option>Kelurahan 4</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
-                                <label for="">Kecamatan</label>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick" name="kecamatan" data-live-search="true" required>
-                                            <option value="">-- Pilih Kecamatan --</option>
-                                            <option>Kecamatan 1</option>
-                                            <option>Kecamatan 2</option>
-                                            <option>Kecamatan 3</option>
-                                            <option>Kecamatan 4</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 form-control-label">
-                                <label for="">Kota/kab. Adm</label>
-                            </div>
-                            <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <select class="form-control show-tick" name="kota" data-live-search="true" required>
-                                            <option value="">-- Pilih Kota --</option>
-                                            <option>Kota 1</option>
-                                            <option>Kota 2</option>
-                                            <option>Kota 3</option>
-                                            <option>Kota 4</option>
-                                        </select>
+                                        <input type="number" name="rw" class="form-control" placeholder="RW" value="">
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +171,7 @@
                             <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <input type="number" name="nop_pbb" class="form-control" placeholder="NOP PBB" required>
+                                        <input type="text" name="nop_pbb" class="form-control" placeholder="NOP PBB" value="" required>
                                     </div>
                                 </div>
                             </div>
@@ -200,9 +208,20 @@
                                 <label for="">NPWPD</label>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-8 col-xs-8">
+                                
                                 <div class="form-group">
-                                    <div class="form-line">
-                                        <input type="number" name="npwpd" class="form-control" placeholder="NPWPD" required>
+                                    <div class="input-group">
+                                        <div class="col-md-2">
+                                            <input type="text" class="form-control" value="xx.xx.xxx.xxx. ">
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-line" id="demo">
+                                                <input type="number" maxlength="3" length="3" class="form-control" placeholder="xxx">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small>Belum Memiliki NPWPD, buat <a onclick="myFunction()">disini</a></small>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -841,5 +860,11 @@ $(function () {
         $(".box").hide();
     });
 });	
+</script>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo").innerHTML = Math.floor((Math.random() * 999) + 100);
+    }
 </script>
 @endsection
