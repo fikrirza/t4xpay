@@ -61,7 +61,7 @@
 						</li>
 					</ul>
 				</li>
-				<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}{{ Route::is('transaksi-pembayaran*') ? 'active' : '' }}{{ Route::is('bukti-pembayaran*') ? 'active' : '' }}">
+				<li class="{{ Route::is('pembayaran-restoran*') ? 'active' : '' }}{{ Route::is('transaksi-pembayaran*') ? 'active' : '' }}{{ Route::is('bukti-pembayaran*') ? 'active' : '' }}{{ Route::is('pembayaran-pbb*') ? 'active' : '' }}">
 					<a href="javascript:void(0);" class="menu-toggle">
 						<i class="material-icons">receipt</i>
 						<span>Pembayaran</span>

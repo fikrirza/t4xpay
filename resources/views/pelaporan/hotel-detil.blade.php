@@ -28,7 +28,7 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
-				<h2>PELAPORAN | PAJAK HOTEL | 31709xxxxxxxxx63476</h2>
+				<h2>PELAPORAN | PAJAK HOTEL | 31 74 030 003 001 0007 0</h2>
 			</div>
 			<div class="body">
 				<table class="table table-hover table-bordered basic-example responsive" style="width:100%">
@@ -44,14 +44,14 @@
 					<tbody>
 						<tr>
 							<td>1</td>
-							<td>31709xxxxxxxxx63476</td>
+							<td>31 74 030 003 001 0007 0</td>
 							<td>Januari</td>
 							<td>2018</td>
 							<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>31709xxxxxxxxx78374</td>
+							<td>31 74 030 003 001 0007 0</td>
 							<td>Februari</td>
 							<td>2018</td>
 							<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>

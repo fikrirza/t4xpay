@@ -11,6 +11,44 @@
 
 
 @section('content')
+
+@if(Session::has('berhasil'))
+<script>
+window.setTimeout(function() {
+	$(".alert-dismissible").fadeTo(500, 0).slideUp(500, function(){
+		$(this).remove();
+	});
+}, 5000);
+</script>
+<div class="row clearfix">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="alert bg-green alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			{{ Session::get('berhasil') }}
+		</div>
+	</div>
+</div>
+@endif
+
+@if(Session::has('update'))
+<script>
+window.setTimeout(function() {
+	$(".alert-dismissible").fadeTo(500, 0).slideUp(500, function(){
+		$(this).remove();
+	});
+}, 5000);
+</script>
+<div class="row clearfix">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="alert bg-cyan alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			{{ Session::get('update') }}
+		</div>
+	</div>
+</div>
+@endif
+
+
 <div class="row clear-fix">
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 		<ol class="breadcrumb">
@@ -43,25 +81,35 @@
 							</tr>
 						</thead>
 						<tbody>
+							@if(Session::has('dataBaru'))
 							<tr>
 								<td>1</td>
-								<td>31709xxxxxxxxx09289</td>
+								<td>{{ Session::get('dataBaru') ['nop_pbb'] }}</td>
+								<td>{{ Session::get('dataBaru') ['nama_objek_pajak'] }}</td>
+								<td>{{ Session::get('dataBaru') ['alamat'] }} {{ Session::get('dataBaru') ['rt'] }} {{ Session::get('dataBaru') ['rw'] }}</td>
+								<td>Dalam Proses Verifikasi</td>
+								<td><a href="" class="btn btn-info btn-xs waves-effect" data-toggle="modal" data-target="#defaultModal">Detil</a>&nbsp;<a href="{{ route('pendaftaran-restoran-ubah') }}" class="btn btn-warning btn-xs waves-effect">Ubah</a></td>
+							</tr>
+							@endif
+							<tr>
+								<td>2</td>
+								<td>31 74 030 003 001 0004 0</td>
 								<td>Restoran 1</td>
 								<td>Jl. Denpasar Kav 51 Karet</td>
 								<td>Dalam Proses Verifikasi</td>
 								<td><a href="" class="btn btn-info btn-xs waves-effect" data-toggle="modal" data-target="#defaultModal">Detil</a>&nbsp;<a href="{{ route('pendaftaran-restoran-ubah') }}" class="btn btn-warning btn-xs waves-effect">Ubah</a></td>
 							</tr>
 							<tr>
-								<td>2</td>
-								<td>31709xxxxxxxxx63476</td>
+								<td>3</td>
+								<td>31 74 030 003 001 0005 0</td>
 								<td>Restoran 2</td>
 								<td>Jl. Surabaya No. 33 Menteng</td>
 								<td>Terverifikasi</td>
 								<td><h4><a href="" class="btn btn-info btn-xs waves-effect" data-toggle="modal" data-target="#defaultModal">Detil</a></h4></td>
 							</tr>
 							<tr>
-								<td>3</td>
-								<td>31709xxxxxxxxx78374</td>
+								<td>4</td>
+								<td>31 74 030 003 001 0006 0</td>
 								<td>Restoran 3</td>
 								<td>Jl. Panjang Sekali Cipulir</td>
 								<td>Terverifikasi</td>

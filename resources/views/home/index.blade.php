@@ -143,7 +143,7 @@
 								<tr>
 									<td>1</td>
 									<td>Restoran</td>
-									<td>31709xxxxxxxxx09289</td>
+									<td>31 74 030 003 001 0005 0</td>
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Lunas</td>
@@ -152,7 +152,7 @@
 								<tr>
 									<td>2</td>
 									<td>Restoran</td>
-									<td>31709xxxxxxxxx34231</td>
+									<td>31 74 030 003 001 0006 0</td>
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Lewat 2 Bulan</td>
@@ -161,7 +161,7 @@
 								<tr>
 									<td>3</td>
 									<td>PBB</td>
-									<td>31709xxxxxxxxx63476</td>
+									<td>31 74 030 003 001 0004 0</td>
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Lewat 1 Bulan</td>
@@ -170,7 +170,7 @@
 								<tr>
 									<td>4</td>
 									<td>Hotel</td>
-									<td>31709xxxxxxxxx64545</td>
+									<td>31 74 030 003 001 0007 0</td>
 									<td>-</td>
 									<td>Rp. ,-</td>
 									<td>Belum Lapor</td>

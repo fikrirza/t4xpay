@@ -38,7 +38,7 @@
 					<tbody>
 						<tr>
 							<td>1</td>
-							<td>31709xxxxxxxxx63476</td>
+							<td>31 74 030 003 001 0004 0</td>
                             <td>Jl. Surabaya No. 33 Menteng</td>
                             <td>200 m<sup>2</sup></td>
                             <td>134 m<sup>2</sup></td>
@@ -46,7 +46,7 @@
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>31709xxxxxxxxx78374</td>
+							<td>31 74 030 003 001 0005 0</td>
                             <td>Jl. Panjang Sekali Cipulir</td>
                             <td>70 m<sup>2</sup></td>
                             <td>150 m<sup>2</sup></td>

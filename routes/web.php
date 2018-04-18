@@ -13,6 +13,7 @@
 // Auth::routes();
 
 Route::get('/', function () { return view('auth.login'); })->name('login');
+Route::get('/sign-in', function () { return view('auth.login-page'); })->name('login-page');
 Route::get('/registrasi', function () { return view('auth.register'); })->name('registrasi');
 Route::get('/registrasi-sukses', function() { return view('auth.regis-sukses'); })->name('regis-sukses'); 
 Route::get('/lupa-password', function () { return view('auth.lupa-password'); })->name('forgetpass');
@@ -42,9 +43,11 @@ Route::get('/pelaporan-hotel-tambah', function() { return view('pelaporan.hotel-
 
 
 /* PENDAFTARAN RESTORAN */
-Route::get('/pendaftaran-restoran', function() { return view('pendaftaran.restoran'); })->name('pendaftaran-restoran');
+Route::get('/pendaftaran-restoran', 'PendaftaranRestoranController@index')->name('pendaftaran-restoran');
+Route::post('/pendaftaran-restoran', 'PendaftaranRestoranController@store')->name('pendaftaran-restoran-submit');
 Route::get('/pendaftaran-restoran-tambah', function() { return view('pendaftaran.restoran-tambah'); })->name('pendaftaran-restoran-tambah');
 Route::get('/pendaftaran-restoran-ubah', function() { return view('pendaftaran.restoran-ubah'); })->name('pendaftaran-restoran-ubah');
+Route::post('/pendaftaran-restoran-ubah', 'PendaftaranRestoranController@update')->name('pendaftaran-restoran-update');
 
 
 /* PELAPORAN RESTORAN */

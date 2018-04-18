@@ -45,7 +45,7 @@
 						<tbody>
 							<tr>
 								<td>1</td>
-								<td>31709xxxxxxxxx09289</td>
+								<td>31 74 030 003 001 0006 0</td>
 								<td>Jl. Denpasar Kav 51 Karet</td>
 								<td>Dalam Proses Verifikasi</td>
 								<td>
@@ -54,14 +54,14 @@
 							</tr>
 							<tr>
 								<td>2</td>
-								<td>31709xxxxxxxxx63476</td>
+								<td>31 74 030 003 001 0007 0</td>
 								<td>Jl. Surabaya No. 33 Menteng</td>
 								<td>Terverifikasi</td>
 								<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>
 							</tr>
 							<tr>
 								<td>3</td>
-								<td>31709xxxxxxxxx78374</td>
+								<td>31 74 030 003 001 0008 0</td>
 								<td>Jl. Panjang Sekali Cipulir</td>
 								<td>Terverifikasi</td>
 								<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>
@@ -85,7 +85,7 @@
 					<tbody>
 						<tr>
 							<td>Nomor Objek Pajak</td>
-							<td>31709xxxxxxxxx09289</td>
+							<td>31 74 030 003 001 0006 0</td>
 						</tr>
 						<tr>
 							<td>Nama Objek Pajak</td>

@@ -39,7 +39,7 @@
 						<tr>
 							<td>1</td>
 							<td>31709xxxxxxxxx63476</td>
-							<td>31709xxxxxxxxx63476</td>
+							<td>31 74 030 003 001 0007 0</td>
 							<td>Hotel 2</td>
 							<td>Jl. Surabaya No. 33 Menteng</td>
 							<td><a href="{{ route('pelaporan-hotel-detil') }}" class="btn btn-info btn-xs waves-effect">Detil</a></td>
@@ -47,7 +47,7 @@
 						<tr>
 							<td>2</td>
 							<td>31709xxxxxxxxx78374</td>
-							<td>31709xxxxxxxxx78374</td>
+							<td>31 74 030 003 001 0008 0</td>
 							<td>Hotel 3</td>
 							<td>Jl. Panjang Sekali Cipulir</td>
 							<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>

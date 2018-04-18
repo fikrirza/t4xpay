@@ -31,7 +31,7 @@
                                 <p class="font-bold align-right">Nomor Objek Pajak</p>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 form-control-label">
-                                <p>31709xxxxxxxxx63476</p>
+                                <p>31 74 030 003 001 0004 0</p>
                             </div>
                         </div>
                         <div class="form-group form-float">

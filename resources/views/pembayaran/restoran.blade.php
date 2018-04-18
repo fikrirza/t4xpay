@@ -37,14 +37,14 @@
 					<tbody>
 						<tr>
 							<td>1</td>
-							<td>31709xxxxxxxxx63476</td>
+							<td>31 74 030 003 001 0005 0</td>
 							<td>Restoran 2</td>
 							<td>Jl. Surabaya No. 33 Menteng</td>
 							<td><a href="{{ route('pembayaran-restoran-detil') }}" class="btn btn-info btn-xs waves-effect">Detil</a></td>
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>31709xxxxxxxxx78374</td>
+							<td>31 74 030 003 001 0006 0</td>
 							<td>Restoran 3</td>
 							<td>Jl. Panjang Sekali Cipulir</td>
 							<td><a href="" class="btn btn-info btn-xs waves-effect">Detil</a></td>

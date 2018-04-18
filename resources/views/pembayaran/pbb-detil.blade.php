@@ -22,7 +22,7 @@
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<div class="card">
 			<div class="header">
-				<h2>PEMBAYARAN PAJAK PBB | 31709xxxxxxxxx63476</h2>
+				<h2>PEMBAYARAN PAJAK PBB | 31 74 030 003 001 0004 0</h2>
 			</div>
 			<div class="body">
 				<table class="table table-hover table-bordered basic-example responsive" style="width:100%">
